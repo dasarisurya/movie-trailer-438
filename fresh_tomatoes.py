@@ -5,6 +5,7 @@ import webbrowser
 import os
 import re
 
+# stylingand scripting the page
 pedda_thala = '''
 <!DOCTYPE html>
 <html>
@@ -18,7 +19,7 @@ pedda_thala = '''
      <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
              
  <style>
-   
+   /*modal box is added*/
   .modal {
     display: none;
     position: fixed;
@@ -32,7 +33,7 @@ pedda_thala = '''
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4);
       }
-
+  /*modal content is added*/
   .modal-content {
     position:relative;    
     margin: 8% auto;
@@ -41,6 +42,7 @@ pedda_thala = '''
     height:100%;
       }
 
+  /*close button is given*/
   .close {
     position:relative;
     top:45%;
@@ -224,6 +226,7 @@ font-family: 'Shadows Into Light', cursive;">MOVIE TRAILERS</h1>
 
 </html>
 '''
+# a single movie entry html template
 tile_content = '''
 <div class="col-md-6 col-lg-4 movie-title text-center" data-trailer-youtube-
             id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
@@ -233,6 +236,7 @@ tile_content = '''
 '''
 
 def create_movie_tiles_content(movies):
+    #html content for the section of the page
     content=''
     for movie in movies:
         youtube_id_match = re.search(
@@ -250,14 +254,18 @@ def create_movie_tiles_content(movies):
     return content
         
 def open_movies_page(movies):
+    #creating or overwriting the output file
     output_file = open('trailer2.htm','w')
-
+    
+    #reolace the movietiles placeholder generated content
     rendered_content =thala.format(
         movie_tiles=create_movie_tiles_content(movies))
 
+    # output the file
     output_file.write(pedda_thala + rendered_content)
     output_file.close()
-
+    
+    #open the output file in new browser
     url=os.path.abspath(output_file.name)
     webbrowser.open('file://' + url,new=2)
     ''
