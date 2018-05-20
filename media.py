@@ -3,7 +3,6 @@ print("Content-type:text/html \n")
 
 import webbrowser
 
-
 class Movie():
 
     def __init__(self,movieName,
