@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-print("Content-type:text/html \n")
-
 import media
 import fresh_tomatoes
+
+print("Content-type:text/html \n")
 
 # movie, image urls
 
