@@ -12,16 +12,16 @@ Backend : python cgi model
 
 ## Requirements
 
-*Python3
+* Python3
 
-*Modern browser
+* Modern browser
 
-*Python packages:cgi model
+* Python packages:cgi model
 
 ## Local development
 
-1.Clone this Repository.
+1. Clone this Repository.
 
-2.Change the directory
+2. Change the directory
 
 
