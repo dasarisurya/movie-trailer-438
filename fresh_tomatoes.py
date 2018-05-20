@@ -27,8 +27,8 @@ pedda_thala = '''
     padding-top:40px;
     left: 0;
     top: 0;
-    width: 80vw;
-    height: auto; 
+    width: 100%;
+    height: 100%; 
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4);
@@ -36,10 +36,10 @@ pedda_thala = '''
   /*modal content is added*/
   .modal-content {
     position:relative;    
-    margin: 8% auto;
+    margin: 5% auto;
     padding: 40px;
-    width: 100%;
-    height:100%;
+    width: 70%;
+    height:auto;
       }
 
   /*close button is given*/
@@ -73,118 +73,114 @@ pedda_thala = '''
      cursor:pointer;
      }
      
-  @media screen and (min-width :450px)  {
-      div.cap1:hover{
-            border:0px 0px 0px 0px;
-            background-color: #006080;
-            border-radius:20px;
-            }
-       div.cap2:hover{
-            border:1px;
-            background-color:#696ac7;
-            border-radius:20px;
-            }
-       div.cap3:hover{
-            border:1px;
-            background-color:#ff4d4d;
-            border-radius:20px;
-            }  
-       div.cap4:hover{
-            border:1px;
-            background-color:#e69900;
-            border-radius:20px;
-            }  
-        div.cap5:hover{
-            border:1px;
-            background-color:black;
-            border-radius:20px;
-            }       
-       .cap1,.cap2,.cap3,.cap4,.cap5 {width:33%;}
-       
-       h1 {background-color:black;}
-            }
-       @media screen and (min-width :451px) and (max-width:850px)  {
-      div.cap1:hover{
-            border:0px 0px 0px 0px;
-            background-color: #006080;
-            border-radius:20px;
-            }
-       div.cap2:hover{
-            border:1px;
-            background-color:#696ac7;
-            border-radius:20px;
-            }
-       div.cap3:hover{
-            border:1px;
-            background-color:#ff4d4d;
-            border-radius:20px;
-            }  
-       div.cap4:hover{
-            border:1px;
-            background-color:#e69900;
-            border-radius:20px;
-            }  
-        div.cap5:hover{
-            border:1px;
-            background-color:black;
-            border-radius:20px;
-            }       
-       .cap1,.cap2,.cap3,.cap4,.cap5 {width:50%;}
-       
-       h1 {background-color:black;}
-            }
-                                        
-                                        
-       div.cap1:hover{
-            border:0px 0px 0px 0px;
-            background-color: #006080;
-            border-radius:20px;
-            }
-       div.cap2:hover{
-            border:1px;
-            background-color:#696ac7;
-            border-radius:20px;
-            }
-       div.cap3:hover{
-            border:1px;
-            background-color:#ff4d4d;
-            border-radius:20px;
-            }  
-       div.cap4:hover{
-            border:1px;
-            background-color:#e69900;
-            border-radius:20px;
-            }  
-        div.cap5:hover{
-            border:1px;
-            background-color:black;
-            border-radius:20px;
-            }                                        
-      
-      h1 {background-color:black;
-         border-radius:25px;
-         padding:5px;}
-       
-      h2 {margin:0px;
-      font-family: 'Quattrocento', serif;}  
-      
-     .img{border-radius:10px;}
+@media screen and (min-width :450px)  {
+    div.cap1:hover{
+        border:0px 0px 0px 0px;
+        background-color: #006080;
+        border-radius:20px;
+        }
+    div.cap2:hover{
+        border:1px;
+        background-color:#696ac7;
+        border-radius:20px;
+        }
+    div.cap3:hover{
+        border:1px;
+        background-color:#ff4d4d;
+        border-radius:20px;
+        }  
+    div.cap4:hover{
+        border:1px;
+        background-color:#e69900;
+        border-radius:20px;
+        }  
+    div.cap5:hover{
+        border:1px;
+        background-color:black;
+        border-radius:20px;
+        }       
+    .cap1,.cap2,.cap3,.cap4,.cap5 {width:33%;}
+    
+    h1 {background-color:black;}
+        }
+    @media screen and (min-width :451px) and (max-width:850px)  {
+    div.cap1:hover{
+        border:0px 0px 0px 0px;
+        background-color: #006080;
+        border-radius:20px;
+        }
+    div.cap2:hover{
+        border:1px;
+        background-color:#696ac7;
+        border-radius:20px;
+        }
+    div.cap3:hover{
+        border:1px;
+        background-color:#ff4d4d;
+        border-radius:20px;
+        }  
+    div.cap4:hover{
+        border:1px;
+        background-color:#e69900;
+        border-radius:20px;
+        }  
+    div.cap5:hover{
+        border:1px;
+        background-color:black;
+        border-radius:20px;
+        }       
+    .cap1,.cap2,.cap3,.cap4,.cap5 {width:50%;}
+    
+    h1 {background-color:black;}
+        }
+                                    
+                                    
+    div.cap1:hover{
+        border:0px 0px 0px 0px;
+        background-color: #006080;
+        border-radius:20px;
+        }
+    div.cap2:hover{
+        border:1px;
+        background-color:#696ac7;
+        border-radius:20px;
+        }
+    div.cap3:hover{
+        border:1px;
+        background-color:#ff4d4d;
+        border-radius:20px;
+        }  
+    div.cap4:hover{
+        border:1px;
+        background-color:#e69900;
+        border-radius:20px;
+        }  
+    div.cap5:hover{
+        border:1px;
+        background-color:black;
+        border-radius:20px;
+        }                                        
+    
+    h1 {background-color:black;
+        border-radius:25px;
+        padding:5px;}
+    
+    h2 {margin:0px;
+    font-family: 'Quattrocento', serif;}  
+    
+    .img{border-radius:10px;}
          
  </style>
 
- <div>
-      <!-- The Modal -->
-           <div id="myModal" class="modal">
-
-      <!-- Modal content -->
-               <div class="modal-content">
-               
-                    <span class="close">&times;</span>
-                    <iframe id="f" width=70% height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    
-               </div>
-          
-           </div>
+<div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="f" width=70% height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div> 
+    </div>
 </div>
    
  <script>
@@ -192,22 +188,29 @@ var modal = document.getElementById('myModal');
 
 var span = document.getElementsByClassName("close")[0];
 
-    onc = function(c) {
-    modal.style.display = "block";
-    c='https://www.youtube.com/embed/'+c;
-    console.log(c);
-    document.getElementById("f").setAttribute("src",c);
-}
+onc = function(c) {
+            modal.style.display = "block";
+            c='https://www.youtube.com/embed/'+c;
+            console.log(c);
+            document.getElementById("f").setAttribute("src",c);
+        }
 
-    span.onclick = function() {
-        modal.style.display = "none";
+span.onclick = function(){
+    console.log("hello");
+    var iframe = document.getElementById("f");
+    iframe.src = iframe.src;
+    modal.style.display = "none";
+   
 } 
 
-   window.onclick = function(event) {
-       if (event.target == modal) {
-          modal.style.display = "none";
+window.onclick = function(event) {
+    if(event.target == modal){
+       
+        
+        modal.style.display = "none";
     } 
 }
+
 </script> 
 </head>
 '''
