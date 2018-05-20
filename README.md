@@ -22,6 +22,14 @@ Backend : python cgi model
 
 1. Clone this Repository.
 
-2. Change the directory
+2. Change the directory.
+
+3. Run the entertainment_center.py file on python 2.7 idle.
+
+4. A html file is created on running the file.
+
+5. You can also run the html file on your favourite browser.
+
+
 
 
