@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 import webbrowser
-print("Content-type:text/html \n")
 
 
 class Movie():
     '''
-      movie class is defined
+      class Movie():
+A class movie takes the contents of the movie
+
+Attributes:
+    movieName (str): movie name is taken.
+    movieStoryline (str): movie Storyline is described.
+    posterImage (str): movie posterimage is taken.
+    trailerYoutube (str): youtube url is taken.
     '''
 
     def __init__(self, movieName,
