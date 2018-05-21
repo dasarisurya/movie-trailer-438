@@ -26,10 +26,10 @@ wrongturn = media.Movie("Wrongturn", "crime mystery",
                         "https://bit.ly/2KD8qcq",
                         "https://www.youtube.com/watch?v=NnoaCE1VPgc")
 
-sorcerersapprentice = media.Movie("Sorcerers apprentice", "physics mystery",
+sorcerersapprentic = media.Movie("Sorcerers apprentice", "physics mystery",
                                   "https://bit.ly/2IBomQ0",
                                   "https://www.youtube.com/watch?v=v2uV0_1C4UM")
 
 movies = [premam, lucy, vikramvedha,
-          rabnebanadijodi, wrongturn, sorcerersapprentice]
+          rabnebanadijodi, wrongturn, sorcerersapprentic]
 fresh_tomatoes.open_movies_page(movies)
