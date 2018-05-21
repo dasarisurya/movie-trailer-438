@@ -2,8 +2,6 @@
 import media
 import fresh_tomatoes
 
-print("Content-type:text/html \n")
-
 # movie, image urls
 
 premam = media.Movie("Pramam", "Love",
@@ -15,7 +13,7 @@ lucy = media.Movie("Lucy", "Scifi",
                    "https://www.youtube.com/watch?v=MVt32qoyhi0")
 
 vikramvedha = media.Movie("Vikram vedha", "Crime",
-                          "https://bit.ly/2rURLdg",
+                          "https://bit.ly/2kcWNhf",
                           "https://www.youtube.com/watch?v=1sVr-uWZPjE")
 
 rabnebanadijodi = media.Movie("Rab ne bana di jodi", "Love",
@@ -23,13 +21,13 @@ rabnebanadijodi = media.Movie("Rab ne bana di jodi", "Love",
                               "https://www.youtube.com/watch?v=eBi8syxPd14")
 
 wrongturn = media.Movie("Wrongturn", "crime mystery",
-                        "https://bit.ly/2KD8qcq",
+                        "https://bit.ly/2IC61C7",
                         "https://www.youtube.com/watch?v=NnoaCE1VPgc")
 
-sorcerersapprentic = media.Movie("Sorcerers apprentice", "physics mystery",
+sorcerersapp = media.Movie("Sorcerers apprentice", "physics mystery",
                                   "https://bit.ly/2IBomQ0",
                                   "https://www.youtube.com/watch?v=v2uV0_1C4UM")
 
 movies = [premam, lucy, vikramvedha,
-          rabnebanadijodi, wrongturn, sorcerersapprentic]
+          rabnebanadijodi, wrongturn, sorcerersapp]
 fresh_tomatoes.open_movies_page(movies)
