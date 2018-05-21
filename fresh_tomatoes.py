@@ -3,7 +3,6 @@
 import webbrowser
 import os
 import re
-print("Content-type:text/html \n")
 
 # styling and scripting the page
 pedda_thala = '''
@@ -229,12 +228,12 @@ thala = '''
         </div>
 
         <div class="box cap4" onclick="onc('v2uV0_1C4UM')"> 
-                <img vspace="30" src="https://bit.ly/2KHpCxn", style="width:55%"height="350"  hspace="20" class="img">
+                <img vspace="30" src="https://bit.ly/2IBomQ0", style="width:55%"height="350"  hspace="20" class="img">
                 <h2 style="color:white;">Sorcerer's Apprentice</h2>
         </div>
 
         <div class="box cap3" onclick="onc('1sVr-uWZPjE')"> 
-                <img vspace="30" src="https://bit.ly/2rURLd" style="width:55%" height="350" hspace="20" class="img">
+                <img vspace="30" src="https://bit.ly/2kcWNhf" style="width:55%" height="350" hspace="20" class="img">
                 <h2 style="color:white;">Vikram Vedha</h2> 
         </div>
 
@@ -244,12 +243,12 @@ thala = '''
         </div>
 
         <div class="box cap5" onclick="onc('NnoaCE1VPgc')"> 
-                <img vspace="30" src="https://bit.ly/2KD8qcq", style="width:55%"height="350"  hspace="20" class="img">
+                <img vspace="30" src="https://bit.ly/2IC61C7", style="width:55%"height="350"  hspace="20" class="img">
                 <h2 style="color:white;">Wrong Turn</h2>
         </div>
 
         <div class="box cap4" onclick="onc('MVt32qoyhi0')">
-                <img vspace="30" src= "https://bit.ly/2IBomQ0" style="width:55%"height="350"  hspace="20" class="img">
+                <img vspace="30" src= "https://bit.ly/2KHpCxn" style="width:55%"height="350"  hspace="20" class="img">
                 <h2 style="color:white;">Lucy</h2>
         </div> 
 
